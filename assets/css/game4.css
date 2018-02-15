@@ -1,0 +1,67 @@
+body {
+	background-image: url(../image/hpdiningroom.png);
+	background-size: 100%;
+}
+
+	
+.header h1 {
+  font-family: 'Condiment', cursive;
+  color: white;
+  font-weight: lighter;
+  font-size: 100px;
+  text-align: center;
+  text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+  margin: 0;
+}
+
+.header h2 {
+  font-family: 'Courgette', cursive;
+  font-weight: lighter;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  margin-top: -48px;
+  margin-left: 263px;
+  text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+}
+
+p {
+	margin: 0;
+	text-align: center;
+}
+
+#scoreboard {
+padding-left: 90px;
+}
+
+h3 {
+	background-color: white;
+	width: 200px;
+	height: 100px;
+	float: left;
+	margin-right: 10px;
+	text-align: center;
+	font-family: 'Courgette', cursive;
+	color: #4d0000;
+	border: 2px solid #ffb84d;
+}
+
+
+#sortinghat {
+	float: left;
+	clear: both;
+	padding-left: 20px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img {
+	display: inline-block;
+	float: left;
+	margin-right: 50px;
+	margin-top: 50px;
+}
