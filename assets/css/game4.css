@@ -15,10 +15,11 @@ body {
 }
 
 .header h2 {
-  font-family: 'Courgette', cursive;
+	font-family: 'Condiment', cursive;
+  /*font-family: 'Courgette', cursive;*/
   font-weight: lighter;
   color: white;
-  font-size: 35px;
+  font-size: 45px;
   text-align: center;
   margin-top: -48px;
   margin-left: 263px;
