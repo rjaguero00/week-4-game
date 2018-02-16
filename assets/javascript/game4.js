@@ -15,10 +15,14 @@
 		if (randomNumber == score) {
 			wins++;
 			alert('You win!')
+			restart()
+			
+
 		}
 		if (randomNumber < score) {
 			losses++;
 			alert('You Lose!')
+			restart()
 		}
 		console.log(score)
 		});
@@ -28,10 +32,12 @@
 		if (randomNumber == score) {
 			wins++;
 			alert('You win!')
+			restart()
 		}
 		if (randomNumber < score) {
 			losses++;
 			alert('You Lose!')
+			restart()
 		}
 		console.log(score)
 		});
@@ -41,10 +47,12 @@
 		if (randomNumber == score) {
 			wins++;
 			alert('You win!')
+			restart()
 		}
 		if (randomNumber < score) {
 			losses++;
 			alert('You Lose!')
+			restart()
 		}
 		console.log(score)
 		});
@@ -54,14 +62,28 @@
 		if (randomNumber == score) {
 			wins++;
 			alert('You win!')
+			restart()
 		}
 		if (randomNumber < score) {
 			losses++;
 			alert('You Lose!')
+			restart()
 		}
 		console.log(score)
 		});
 
+		function restart(){
+			// get new random
+			randomNumber = Math.floor(Math.random () * 50) + 1;
+			console.log(randomNumber)
+			// reset score to 0
+			score = 0;
+			// get new random number for each gem
+			crystal1Value = Math.floor(Math.random() * 10) + 1;
+			crystal2Value = Math.floor(Math.random() * 10) + 1;
+			crystal3Value = Math.floor(Math.random() * 10) + 1;
+			crystal4Value = Math.floor(Math.random() * 10) + 1;
+		}
 
 
 	});		
