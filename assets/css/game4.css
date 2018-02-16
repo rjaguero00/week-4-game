@@ -50,7 +50,10 @@ h3 {
 #sortinghat {
 	float: left;
 	clear: both;
+	width: 800px;
+	height: 360px;
 	padding-left: 20px;
+	background-image: url("../image/sorting-hat.jpg");
 }
 
 .container {
@@ -64,4 +67,26 @@ img {
 	float: left;
 	margin-right: 50px;
 	margin-top: 50px;
+}
+
+#winsNumber {
+	font-size: 60px;
+}
+
+#lossesNumber {
+	font-size: 60px;
+}
+
+#ranNum {
+	font-size: 60px;
+}
+
+#currentGuess {
+	font-size: 60px;
+	color: white;
+	text-align: center;
+	font-family: 'Courgette', cursive;
+	padding-top: 125px;
+	padding-right: 75px;
+
 }
